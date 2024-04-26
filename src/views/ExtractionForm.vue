@@ -141,6 +141,13 @@
 
                   </td>
               </tr>
+              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700" colspan="4">
+                  <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    Invoice Number: 
+                  </th>
+                 
+              </tr>
+
               
               <!-- <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700" v-for="invoice in invoices" :key="invoice.id">
                   <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
