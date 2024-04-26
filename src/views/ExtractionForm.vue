@@ -168,8 +168,14 @@
               </tr> -->
           </tbody>
       </table>
+
+      
   </div>
-  
+  <div class="bg-white p-8 my-8 flex justify-between">
+    <div class="text-xl">Percentage- {{ percent }} %</div>
+    <div class="bg-green-600 p-2 text-white rounded-lg">Verify</div>
+  </div>
+ 
   </template>
   
   <script>
@@ -181,6 +187,7 @@
         invoices: [],
         loading: false,
         error: null,
+        percent: 0
       };
     },
     methods: {
