@@ -1,9 +1,9 @@
 <template>
   
-    <h1 class="my-8 font-semibold text-2xl text-center">Invoices</h1>
+    <h1 class="my-8 text-2xl font-semibold text-center">Invoices</h1>
   
   <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-      <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+      <table class="w-full text-sm text-left text-gray-500 rtl:text-right dark:text-gray-400">
           <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
               <tr>
                   <th scope="col" class="px-6 py-3">
@@ -47,7 +47,7 @@
           <tbody>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    School Name
+                    Prediction Result
                   </th>
                   <td class="px-6 py-4">
                       
@@ -71,7 +71,7 @@
               </tr>
               <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Invoice Amount
+                    Accuracy
                   </th>
                   <td class="px-6 py-4">
                       
@@ -95,7 +95,7 @@
               </tr>
               <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Parents Name
+                    F1 Score
                   </th>
                   <td class="px-6 py-4">
                       
@@ -117,9 +117,9 @@
 
                   </td>
               </tr>
-              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <!-- <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                   <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    School Acoount Number
+                    
                   </th>
                   <td class="px-6 py-4">
                       
@@ -140,10 +140,10 @@
 
 
                   </td>
-              </tr>
+              </tr> -->
               <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700" colspan="4">
                   <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Invoice Number: 
+                    Patient Image ID: 
                   </th>
                  
               </tr>
@@ -153,9 +153,9 @@
 
       
   </div>
-  <div class="bg-white p-8 my-8 flex justify-between">
+  <div class="flex justify-between p-8 my-8 bg-white">
     <div class="text-xl">Percentage- {{ percent }} %</div>
-    <div class="bg-green-600 p-2 text-white rounded-lg">Verify</div>
+    <div class="p-2 text-white bg-green-600 rounded-lg">Send Result</div>
   </div>
  
   </template>

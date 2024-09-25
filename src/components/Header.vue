@@ -10,7 +10,7 @@
               </svg>
            </button>
           <a href="/" class="flex ms-2 md:me-24">
-            <span class="self-center text-xl sm:text-2xl whitespace-nowrap dark:text-white text-blue-800 font-semibold">Loan Invoice Validation Sys</span>
+            <span class="self-center text-xl font-semibold text-blue-800 sm:text-2xl whitespace-nowrap dark:text-white">Breast Cancer Cell Segmentation</span>
           </a>
         </div>
         <div class="flex items-center">

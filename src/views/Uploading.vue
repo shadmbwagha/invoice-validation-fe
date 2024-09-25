@@ -3,13 +3,13 @@
       <div class="w-3/4 px-6 py-4 bg-white shadow-md">
         <div>
           <h1 class="mt-4 font-bold text-center text-md">
-            Upload Invoice
+            Upload Patient Cell Image
           </h1>
           
  
             <div class="flex flex-col space-y-4">
                 <input type="file" @change="handleFileChange" />
-                <button @click="uploadFile" class="w-full bg-green-500 p-4 text-white font-semibold">Upload</button>
+                <button @click="uploadFile" class="w-full p-4 font-semibold text-white bg-green-500">Upload</button>
             </div>
 
 
