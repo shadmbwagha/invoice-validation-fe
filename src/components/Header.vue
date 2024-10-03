@@ -10,7 +10,7 @@
               </svg>
            </button>
           <a href="/" class="flex ms-2 md:me-24">
-            <span class="self-center text-xl font-semibold text-blue-800 sm:text-2xl whitespace-nowrap dark:text-white">Breast Cancer Cell Segmentation</span>
+            <span class="self-center text-xl font-semibold text-blue-800 sm:text-2xl whitespace-nowrap dark:text-white">DIT information System</span>
           </a>
         </div>
         <div class="flex items-center">
